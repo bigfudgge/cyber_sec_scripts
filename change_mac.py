@@ -21,9 +21,9 @@ print(f"Текущий MAC-адрес: {factory_mac}")
 
 #Function for changing mac address
 def change_mac():
-    mac_list = ['b0:5c:da:e2:61:aa', 'b0:5c:da:e2:61:ab', 'b0:5c:da:e2:61:ac', 'b0:5c:da:e2:61:cc']
+    mac_list = ['b1:2c:dd:e6:63:fg', 'b1:2c:dd:e6:63:fd', 'b1:2c:dd:e6:63:re', 'b1:2c:dd:e6:63:cc']
 
-    print("Доступные MAC-адреса: [1] TSV 601 vlan, [2] ARM_KIOSK 275 vlan, [3] Стандартный для WiFi vlan 808, [4] Случайный):")
+    print("Доступные MAC-адреса: [1] TSV, [2] ARM, [3] WiFi, [4] Random:")
 
     for i, mac in enumerate(mac_list):
         print(f"{i+1}: {mac}")
