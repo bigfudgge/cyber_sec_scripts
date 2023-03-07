@@ -21,7 +21,7 @@ print(f"\n{'='*10}ТЕКУЩИЙ MAC-адрес: {factory_mac}")
 
 command_down = f'sudo ifconfig {interface} down'
 subprocess.call(command_down, shell=True)
-command_hw = f'sudo ifconfig {interface} hw ether b0:5c:da:e2:62:cc'
+command_hw = f'sudo ifconfig {interface} hw ether <your_mac>'
 subprocess.call(command_hw, shell=True)
 command_up = f'sudo ifconfig {interface} up'
 subprocess.call(command_up, shell=True)
